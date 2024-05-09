@@ -20,6 +20,7 @@ Connect with me on LinkedIn to stay in the loop with my professional journey and
 My Linkedin: https://www.linkedin.com/in/mubashirali69
 
 **Tech Stack**
+
 •	HTML 🚀
 •	CSS 🚀
 •	JavaScript 🚀
