@@ -18,4 +18,19 @@ window.onscroll = () => {
   });
 };
 
+var tl = gsap.timeline()
+
+tl.from(".nav-logo",{
+        y: -20,
+        opacity:0,
+        duration:1,
+        delay:0.5
+})
+
+tl.from(".nav-menu ul li",{
+        y: -20,
+        opacity:0,
+        duration:1,
+        stagger: 0.3
+})
 
