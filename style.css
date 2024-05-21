@@ -63,7 +63,7 @@ nav ul li a:hover,
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin: 80px 0;
+    margin: 5rem 0;
 }
 
 .firstSection>div {
@@ -198,7 +198,7 @@ nav ul li a:hover,
 
 .portfolio-section {
     text-align: center;
-    margin-top: 7rem;
+    margin: 7rem 0;
 }
 
 .project-firstSection {
@@ -226,6 +226,7 @@ nav ul li a:hover,
 
 .project-leftSection img {
     width: 70%;
+    height: 100%;
     border-radius: 10px;
 }
 
@@ -246,6 +247,43 @@ nav ul li a:hover,
 .button .btn a {
     text-decoration: none;
     color: white;
+}
+
+/* services  */
+.title{
+    display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.services-heading{
+    margin-top: 2rem;
+}
+.services-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin: 5rem;
+  }
+  
+.services-content{
+    background-color: rgb(170, 111, 224);
+    margin: 1rem;
+    border-radius: 10px;
+}  
+
+.services-box-content ul li{
+padding: 2rem 1.5rem;
+list-style: none;
+display: inline-flex;
+}
+
+.services-heading{
+    text-align: center;
+    color: rgb(11, 11, 124);
+}
+
+.services-box-list i {
+    padding: 0.2rem 0.5rem 0 0;
 }
 
 .cont {
@@ -345,6 +383,12 @@ footer .footer-rights {
     }
 }
 
+@media screen and (max-width: 450px) {
+    body {
+        overflow: hidden auto;
+    }
+}
+
 @media screen and (max-width: 600px) {
 
     .firstSection {
@@ -419,6 +463,9 @@ footer .footer-rights {
     .leftSection .btn1 {
         margin-top: 3rem;
        
+    }
+    .leftSection>div{
+        white-space: nowrap;
     }
 }
 
@@ -586,6 +633,20 @@ footer .footer-rights {
 @media screen and (max-width: 450px) {
     .contact-content>div {
         position: relative;
-        right: 70%;
+        right: 100%;
+    }
+}
+
+@media screen and (min-width: 1800px) and (max-width: 4000px){
+    .services-box-content{
+        height: 30vw;
+        padding: 4rem 2rem;
+    }
+    .services-box-content ul li{
+        font-size: 1.3rem;
+    }
+    .services-heading{
+        font-size: 1.5rem;
+        margin-top: 3rem;
     }
 }
