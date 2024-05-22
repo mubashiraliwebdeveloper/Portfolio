@@ -371,6 +371,7 @@ footer {
     padding-bottom: 7rem;
 }
 .footer-rights {
+    font-size: 1.5rem;
     text-align: center;
 }
 
@@ -399,11 +400,17 @@ footer {
     body {
         width: 220vw;
     }
-}
-
-@media screen and (max-width: 450px) {
-    body {
+    body{
         overflow: hidden auto;
+    }
+    .nav-logo{
+        font-size: 2rem;
+    }
+    .nav-menu{
+        font-size: 1.3rem;
+    }
+    .nav-menu ul li a{
+        padding: 0 18px;
     }
 }
 
@@ -633,6 +640,10 @@ footer {
     .contact-content>div {
         position: relative;
         right: 40%;
+    }
+
+    .contact-section{
+        margin: 15rem 0 25rem 0;
     }
     .about-description {
         width: 600px;
