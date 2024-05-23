@@ -400,9 +400,6 @@ footer {
     body {
         width: 220vw;
     }
-    body{
-        overflow: hidden auto;
-    }
     .nav-logo{
         font-size: 2rem;
     }
