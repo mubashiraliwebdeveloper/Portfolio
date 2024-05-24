@@ -250,37 +250,38 @@ nav ul li a:hover,
 }
 
 /* services  */
-.title{
+.title {
     display: flex;
-  align-items: center;
-  justify-content: center;
+    align-items: center;
+    justify-content: center;
 }
 
-.services-heading{
+.services-heading {
     margin-top: 2rem;
     font-size: 1.5rem;
 }
+
 .services-container {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  margin: 3rem 10rem; 
-  font-size: 1.2rem;
-  }
-  
-.services-content{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 3rem 10rem;
+    font-size: 1.2rem;
+}
+
+.services-content {
     background-color: rgb(170, 111, 224);
     margin: 2rem;
     padding: 1rem 0;
     border-radius: 10px;
-}  
-
-.services-box-content ul li{
-padding: 2rem 1.5rem;
-list-style: none;
-display: inline-flex;
 }
 
-.services-heading{
+.services-box-content ul li {
+    padding: 2rem 1.5rem;
+    list-style: none;
+    display: inline-flex;
+}
+
+.services-heading {
     text-align: center;
     color: rgb(11, 11, 124);
 }
@@ -367,9 +368,11 @@ footer {
 .footer-third ul li a:hover {
     color: rgb(170, 111, 224);
 }
-.footer{
+
+.footer {
     padding-bottom: 7rem;
 }
+
 .footer-rights {
     font-size: 1.5rem;
     text-align: center;
@@ -380,17 +383,21 @@ footer {
     body {
         width: 150vw;
     }
-    footer{
+
+    footer {
         height: 800px;
     }
-    .footer{
+
+    .footer {
         font-size: 1.5rem;
         padding-top: 10rem;
     }
-    .footer-third{
+
+    .footer-third {
         line-height: 3;
     }
-    .footer-rights{
+
+    .footer-rights {
         margin-top: 2rem;
         font-size: 1.5rem;
     }
@@ -400,14 +407,13 @@ footer {
     body {
         width: 220vw;
     }
-    .nav-logo{
+
+    .nav-logo {
         font-size: 2rem;
     }
-    .nav-menu{
+
+    .nav-menu {
         font-size: 1.3rem;
-    }
-    .nav-menu ul li a{
-        padding: 0 18px;
     }
 }
 
@@ -427,10 +433,10 @@ footer {
         transform: scale(1.6);
     }
 
-.rightSection img{
-    transform: scale(1.5);
-    margin: 6rem 0 8rem 0;
-}
+    .rightSection img {
+        transform: scale(1.5);
+        margin: 6rem 0 8rem 0;
+    }
 }
 
 @media screen and (max-width: 550px) {
@@ -439,11 +445,11 @@ footer {
         transform: scale(1.8);
     }
 
-    .rightSection img{
+    .rightSection img {
         transform: scale(1.5);
         margin: 6rem 0 8rem 0;
     }
-    }
+}
 
 @media screen and (max-width: 920px) {
 
@@ -463,8 +469,9 @@ footer {
     #element {
         font-size: 2rem;
     }
-    .footer-rights{
-       
+
+    .footer-rights {
+
         font-size: 1.2rem;
     }
 
@@ -482,14 +489,16 @@ footer {
         font-size: 1.3rem;
     }
 
-    .nav-logo{
+    .nav-logo {
         font-size: 2rem;
     }
+
     .leftSection .btn1 {
         margin-top: 3rem;
-       
+
     }
-    .leftSection>div{
+
+    .leftSection>div {
         white-space: nowrap;
     }
 }
@@ -590,32 +599,32 @@ footer {
         transform: scale(2);
     }
 
-.project-firstSection {
-    flex-direction: column;
-}
+    .project-firstSection {
+        flex-direction: column;
+    }
 
-.project-rightSection h2 {
-    font-size: 2.2rem;
-}
+    .project-rightSection h2 {
+        font-size: 2.2rem;
+    }
 
-.project-rightSection p {
-    font-size: 1.6rem;
-}
+    .project-rightSection p {
+        font-size: 1.6rem;
+    }
 
-.project-rightSection .btn {
-    font-size: 2.5rem;
-    margin: 1rem 0 6rem 0;
-}
+    .project-rightSection .btn {
+        font-size: 2.5rem;
+        margin: 1rem 0 6rem 0;
+    }
 
-.project-leftSection img {
-    transform: scale(2);
-    margin: 7rem 0;
-    width: 100%;
-}
+    .project-leftSection img {
+        transform: scale(2);
+        margin: 7rem 0;
+        width: 100%;
+    }
 
-.contact-content>div {
-    font-size: 1.5rem;
-}
+    .contact-content>div {
+        font-size: 1.5rem;
+    }
 
 }
 
@@ -639,9 +648,10 @@ footer {
         right: 40%;
     }
 
-    .contact-section{
+    .contact-section {
         margin: 15rem 0 25rem 0;
     }
+
     .about-description {
         width: 600px;
         position: relative;
@@ -666,71 +676,80 @@ footer {
         margin: 3rem 0;
     }
 
-    .contact-section{
+    .contact-section {
         margin: 10rem 0 25rem 0;
     }
-    footer{
+
+    footer {
         height: 800px;
     }
-    .footer{
+
+    .footer {
         font-size: 1.3rem;
         padding-top: 10rem;
     }
-    .footer-third{
+
+    .footer-third {
         line-height: 3;
     }
-    .footer-rights{
+
+    .footer-rights {
         margin-top: 2rem;
         font-size: 1.2rem;
     }
 }
 
-@media screen and (min-width: 2400px) and (max-width: 4000px){
-    .services-box-content{
+@media screen and (min-width: 2400px) and (max-width: 4000px) {
+    .services-box-content {
         height: 40vw;
         padding: 4rem 4rem;
     }
-    .services-box-content ul li{
+
+    .services-box-content ul li {
         font-size: 2rem;
         padding: 4rem 3rem;
     }
-    .services-heading{
+
+    .services-heading {
         font-size: 2.5rem;
         margin-top: 3rem;
     }
 }
 
-@media screen and (max-width: 750px){
-    .services-container{
+@media screen and (max-width: 750px) {
+    .services-container {
         display: grid;
-       grid-template-columns: 1fr;
+        grid-template-columns: 1fr;
     }
-   
-    .services-box-content ul li{
+
+    .services-box-content ul li {
         font-size: 1.8rem;
         padding: 3rem;
     }
-    .services-heading{
+
+    .services-heading {
         font-size: 2rem;
         margin-top: 3rem;
     }
 
 }
 
-@media screen and (max-width: 450px){
-    .services-container{
-margin: 1rem 0.3rem 10rem 0;
+@media screen and (max-width: 450px) {
+    .services-container {
+        margin: 1rem 0.3rem 10rem 0;
     }
 
-    .services-box-content ul li{
+    .services-box-content ul li {
         font-size: 2rem;
         padding: 2rem 10rem;
     }
-    .services-heading{
+
+    .services-heading {
         font-size: 2.2rem;
         margin-top: 3rem;
     }
-#services{
-    margin: 5rem 0 20rem 0;
-}
+
+    #services {
+        margin: 5rem 0 20rem 0;
+    }
 }
